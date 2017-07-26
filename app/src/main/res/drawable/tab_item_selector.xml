@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="10dp"/>
+                    <solid android:color="@color/pink"/>
+                    <stroke android:color="@color/red" android:width="0.5dp"/>
+                </shape>
+            </item>
+            <item>
+                <bitmap android:gravity="right|bottom" android:src="@drawable/mark_choose_icon" />
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape>
+            <stroke android:color="@color/dark_gray" android:width="0.5dp"/>
+            <corners android:radius="10dp" />
+            <solid android:color="@color/red" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="10dp"/>
+                    <solid android:color="@color/light_pink"/>
+                    <stroke android:color="@color/dark_gray" android:width="0.5dp"/>
+                </shape>
+            </item>
+            <item android:right="16dp">
+                <bitmap android:gravity="right|center" android:src="@drawable/stay_effect_icon" />
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_selected="false">
+        <shape>
+            <corners android:radius="10dp"/>
+            <solid android:color="@color/pink"/>
+            <stroke android:color="@color/red" android:width="0.5dp"/>
+        </shape>
+    </item>
+</selector>

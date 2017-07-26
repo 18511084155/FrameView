@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">自定义控件集合</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc_string">  TextView  顾名思义：就是在界面上呈现文本信息，主要用于显示，没有特殊的事件响应。然而EditText与TexView非常相似，EditText就是多了一个可以让用户输入内容的编辑框功能。     大家可以把EditText看作是编辑内容的那个框，TextView是用于显示文本内容的框。  其实就是这么简单。然而EditText是TextView的子类。接下来就是TextView和EditText的全部XML属性如下。不过在此之前，要先解释一个属性margin和padding</string>
+
+    <string name="load_empty">好像什么也没有发现</string>
+    <string name="frame_info1">没有什么了</string>
+    <string name="frame_info2">真的没有了</string>
+    <string name="frame_info3">好吧,骗不了你</string>
+    <string name="frame_info4">这可能是你想要的</string>
+
+</resources>

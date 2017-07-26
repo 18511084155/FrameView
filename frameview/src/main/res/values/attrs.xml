@@ -1,0 +1,75 @@
+<resources>
+
+    <declare-styleable name="CouponView">
+        <attr name="cv_semicircle_gap" format="dimension|reference" />
+        <attr name="cv_semicircle_radius" format="dimension|reference" />
+        <attr name="cv_semicircle_color" format="color|reference" />
+        <attr name="cv_dash_line_length" format="dimension|reference" />
+        <attr name="cv_dash_line_gap" format="dimension|reference" />
+        <attr name="cv_dash_line_height" format="dimension|reference" />
+        <attr name="cv_dash_line_color" format="color|reference" />
+        <attr name="cv_is_semicircle_top" format="boolean|reference"/>
+        <attr name="cv_is_semicircle_bottom" format="boolean|reference"/>
+        <attr name="cv_is_semicircle_left" format="boolean|reference"/>
+        <attr name="cv_is_semicircle_right" format="boolean|reference"/>
+        <attr name="cv_dash_line_margin_top" format="dimension|reference" />
+        <attr name="cv_dash_line_margin_bottom" format="dimension|reference" />
+        <attr name="cv_dash_line_margin_left" format="dimension|reference" />
+        <attr name="cv_dash_line_margin_right" format="dimension|reference" />
+        <attr name="cv_is_dash_line_top" format="boolean|reference"/>
+        <attr name="cv_is_dash_line_bottom" format="boolean|reference"/>
+        <attr name="cv_is_dash_line_left" format="boolean|reference"/>
+        <attr name="cv_is_dash_line_right" format="boolean|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="vi_circleGravity" format="enum">
+            <enum name="center" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="vi_indicatorRadius" format="dimension" />
+        <attr name="vi_indicatorScale" format="dimension" />
+        <attr name="vi_indicatorPadding" format="dimension" />
+        <attr name="vi_indicatorColor" format="color" />
+        <attr name="vi_indicatorAnimColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DashedLineView">
+        <attr name="dlv_dashColor" format="color"/>
+        <attr name="dlv_dashGap" format="dimension"/>
+        <attr name="dlv_dashWidth" format="dimension"/>
+        <attr name="dlv_strokeWidth" format="dimension"/>
+        <attr name="dlv_offset" format="dimension"/>
+        <attr name="dlv_dashOrientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ExpandTextView">
+        <attr name="etv_maxCollapsedLines" format="integer"/>
+        <attr name="etv_animDuration" format="integer"/>
+        <attr name="etv_animAlphaStart" format="float"/>
+        <attr name="etv_expandDrawable" format="reference"/>
+        <attr name="etv_collapseDrawable" format="reference"/>
+        <attr name="etv_arrowAlign" format="enum">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="right" value="0"/>
+            <enum name="left" value="1"/>
+        </attr>
+        <attr name="etv_arrowPosition" format="enum">
+            <enum name="right" value="0"/>
+            <enum name="below" value="1"/>
+        </attr>
+        <attr name="etv_arrowPadding" format="dimension"/>
+        <attr name="etv_is_collapsed" format="boolean|reference"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="TimeCountDownView">
+        <attr name="tcd_countDownTime"  format="float"/>
+        <attr name="tcd_count_down_format"  format="string"/>
+    </declare-styleable>
+</resources>
